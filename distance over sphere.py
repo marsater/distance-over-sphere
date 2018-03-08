@@ -12,8 +12,6 @@ rearth = 6.3781 * 10**6  # radius of the earth (m)
 pointOne = [math.radians(start[0] - 90), math.radians(start[1])]
 pointTwo = [math.radians(end[0] - 90), math.radians(end[1])]
 
-rearth = 6.3781 * 10**6  # radius of the earth (m)
-
 
 def domath(posstart, posend):
     # convert the coordinates to vectors
