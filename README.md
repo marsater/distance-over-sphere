@@ -6,7 +6,7 @@ python 3
 
 ## script explained
 
-* see the [distance over sphere.py](distance over sphere.py) file for comments
+* see the *distance over sphere.py*  file for comments
 
 ## Authors
 * **David Mårsäter** - *Initial work* 
