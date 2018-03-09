@@ -39,5 +39,6 @@ def domath(posstart, posend):
 
 distance = domath(pointOne, pointTwo)
 
+# print the awesome result
 print('Distance from: ' + str(start) + ' till: ' + str(end))
 print(str(distance / 1000) + ' km')
