@@ -1,3 +1,4 @@
+
 # Distance between coordinates over spehere
 
 import math
@@ -37,6 +38,18 @@ def domath(posstart, posend):
     return distance
 
 
+'''
+due to rounding errors caused by the floating-point-precision of computer systems
+when calculating the angle with cosine.
+On systems with 64-bit floating-point numbers, there should not be any serius rounding
+errors for distances over a few meters, however when the distance is 0,the errors are huge
+'''
+if start[0] != end[0] or start[1] != end[1]:
+    distance = domath(pointOne, pointTwo)
+else:  # if the coordinates equals each other, we can asume the distance = 0, and avoid round-off errors
+    distance = 0
+
+    
 distance = domath(pointOne, pointTwo)
 
 # print the awesome result
