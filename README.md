@@ -7,6 +7,7 @@ python 3
 ## script explained
 
 * see the *distance over sphere.py*  file for comments
+* There may be rounding errors for coordinates really close to eachother due to the *floating-point-precision* of computer systems. For *64-bit floating-point numbers*, there should not be any serius rounding errors for distances over a few meters. But if the two coordinates equals to eachother the rounding error is significant, therefore the script contains a "quick fix" to handle it. 
 
 ## Authors
 * **David Mårsäter** - *Initial work* 
